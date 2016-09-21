@@ -37,3 +37,7 @@ $.extend(objA, objB);
 //这个时候如果调用以下语句，返回的就是期待的最大集合了
 objA = deeplyMerge(objA, objB);
 ```
+
+## jquery.isotope.js
+实现页面上根据不同条件过滤显示部分列表项，这个组件已经全部完成，只需要写html页面即可，非常方便，而且效果不错。
+具体演示可以参见jquery.isotope.html。
