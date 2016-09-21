@@ -12,3 +12,12 @@ $('#divId:visible').livequery(function() {
 	//do something after div loaded
 });
 ```
+
+## jquery.serialize-object.js
+jQuery自带的form.serialize可以将form拼成查询字符串，或者 serializeArray方法可以将参数拼成数组，但很明显这个数组和我们正常项目里处理的数据结构是不一样的（具体哪里不一样，一试便知），这个组件生成的Json对象就是在一般提交时会使用到的方式。
+```javascript
+form.serialize     		//结果应该是类似于 username=dd&age=12&date=20120122 这样的格式
+form.serializeArray   	//结果应该是类似于  [{name: ‘username', value: 'dd'}, {name: 'age', value: 12}]
+form.serializeObject 	//结果应该是： {'username': 'dd', 'age': 12, 'date': ''20120122}   (一般提交应该是需要这种格式吧)
+```
+
