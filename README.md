@@ -44,6 +44,7 @@ objA = deeplyMerge(objA, objB);
 
 ## numeral-1.5.3.1.zip
 Javascript里用来格式化字符串的，看下来功能还是比较好用的。具体的使用方式请参考：http://numeraljs.com/
+<br/>
 Numbers
 ```
 Number	Format	String
