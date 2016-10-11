@@ -86,5 +86,7 @@ Currency
 ## jquery-spinner
 完全基于jQuery的数字组件，可以支持上下按键的数字加减。查看Sample请点 [这里](http://nakupanda.github.io/number-updown/)
   
+## Bootstrap datetimepicker
+基于Bootstrap的datetimepicker，可以支持日期、时间，时区的设置。具体详情，请参见 [README](bootstrap-datetimepicker/)
 
 
