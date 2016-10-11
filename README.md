@@ -84,7 +84,7 @@ Currency
 基于Bootstrap的数字上下按键功能，比较小巧易用。参见 [bootstrap-spinner.html](bootstrap-spinner.html)
   
 ## jquery-spinner
-完全基于jQuery的数字组件，可以支持上下按键的数字加减。查看Sample请点 [这里](http://nakupanda.github.io/number-updown/)
+完全基于jQuery的数字组件，可以支持上下按键的数字加减。查看使用的方法，请点击 <a href="http://nakupanda.github.io/number-updown/" target="_blank">这里</a>
   
 
 
