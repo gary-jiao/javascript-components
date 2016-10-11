@@ -73,14 +73,18 @@ Currency
 ```
 ## jquery-dateFormat
 可以对日期进行格式的组件，具体请参考目录下的README文件
-
+  
 ## Datejs
 另外一个对日期进行扩展的库，同时支持对字符串格式的日期进行解析，得到日期对象。
-
+  
 ## loading
 在Loading目录下有3个页面加载时显示遮罩层的组件，使用上都非常方便。
-
+  
 ## bootstrap-spinner
 基于Bootstrap的数字上下按键功能，比较小巧易用。参见 [bootstrap-spinner.html](bootstrap-spinner.html)
+  
+## jquery-spinner
+完全基于jQuery的数字组件，可以支持上下按键的数字加减。
+  
 
 
