@@ -81,6 +81,6 @@ Currency
 在Loading目录下有3个页面加载时显示遮罩层的组件，使用上都非常方便。
 
 ## bootstrap-spinner
-基于Bootstrap的数字上下按键功能，比较小巧易用。参见 [bootstrap-spinner.html] <bootstrap-spinner.html>
+基于Bootstrap的数字上下按键功能，比较小巧易用。参见 [bootstrap-spinner.html](bootstrap-spinner.html)
 
 
