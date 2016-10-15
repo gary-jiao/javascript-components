@@ -89,4 +89,14 @@ Currency
 ## Bootstrap datetimepicker
 基于Bootstrap的datetimepicker，可以支持日期、时间，时区的设置。具体详情，请参见 [README](bootstrap-datetimepicker/)
 
+## Object.observe
+传说中在添加到ES7标准里的Object.observe方法被取消了，据说是因为性能问题。还好有Object-ovserve这个项目，实现了对象变更时的通知功能，性能到是没有测试过，但相信对于一般项目来讲，性能应该不会成为一个问题的。  
+使用方法非常简单，只需要简单的一句调用即可：
 
+```javascript
+
+	Object.observe(active, function(changes){
+		.......
+	});
+```
+详细使用方式参见 [Object-observe](https://github.com/gary-jiao/object-observe)
