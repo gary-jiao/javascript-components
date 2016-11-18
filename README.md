@@ -133,3 +133,7 @@ AngularJS的双向绑定功能非常方便易用，但一般在提到这个功�
 		<input type="button" value="ChangeValue" onclick="changeValue();">
 	</div>
 ```
+
+## jquery.floatWin
+主要是实现了在全屏浮动的小窗口功能，通俗来讲，一般就是小广告功能。
+
