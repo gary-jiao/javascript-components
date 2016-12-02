@@ -89,4 +89,11 @@ Currency
 ## Bootstrap datetimepicker
 基于Bootstrap的datetimepicker，可以支持日期、时间，时区的设置。具体详情，请参见 [README](bootstrap-datetimepicker/)
 
+## HTML Color Picker
+是不是有时候想要找一种Web页面用的颜色，却不知道对应的rgb值？这个网页里就提供了获取颜色的功能。请点 [这里](http://www.w3schools.com/colors/colors_picker.asp)
 
+## jQuery-KingTable
+一个基于jQuery的表格组件，参见 [jQuery-KingTable](https://github.com/RobertoPrevato/jQuery-KingTable.git)
+
+## jquery-plugin-circliful
+生成环形比例图形的基于jQuery的组件。[jquery-plugin-circliful](https://github.com/pguso/jquery-plugin-circliful.git)
