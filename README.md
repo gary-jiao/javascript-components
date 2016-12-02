@@ -97,3 +97,58 @@ Currency
 
 ## jquery-plugin-circliful
 生成环形比例图形的基于jQuery的组件。[jquery-plugin-circliful](https://github.com/pguso/jquery-plugin-circliful.git)
+
+## Object.observe
+传说中在添加到ES7标准里的Object.observe方法被取消了，据说是因为性能问题。还好有Object-ovserve这个项目，实现了对象变更时的通知功能，性能到是没有测试过，但相信对于一般项目来讲，性能应该不会成为一个问题的。  
+使用方法非常简单，只需要简单的一句调用即可：
+
+```javascript  
+
+	Object.observe(active, function(changes){
+		.......
+	});
+```
+详细使用方式参见 [Object-observe](https://github.com/gary-jiao/object-observe)
+
+## Angular-databinding (for 1.x)
+AngularJS的双向绑定功能非常方便易用，但一般在提到这个功能时，都会把整套Angular的功能都引入进来，而且项目也是Angular的模式，但如果对于普通项目，想使用双向绑定，但是又不愿意变成Angular项目结构时，就可以使用最小集合来实现双向绑定。  
+同时，对于Angular，在页面上改变值时，后台的model会跟着改变，但如果在javascript代码里如果改变model的值，页面上是不会同时跟着变化的，此时需要调用$scope.$apply()来实现页面的同步改变。
+
+```javascript  
+	
+	var demoApp = angular.module('demoApp', []);
+	var model = {'firstName': 'Hello'; 'lastName':'World'};	//需要使用的模型
+	demoApp.controller('DemoController', function($scope) {
+	    $scope.model = model;
+		
+		//使用Object-observe组件
+	    Object.observe(model, function(changes){
+			//当在Javascript改变model值时，同步到页面
+	        $scope.$apply();	
+	    });
+	});
+	
+	//假设点击按钮时修改对象的值，如果没有前面的observe语句，则这里的修改不会反映到页面上。
+	function changeValue() {
+		model.firstName = 'Hello99';
+	}
+```
+
+```html
+
+	<div class="modal-body" ng-app="demoApp" ng-controller="DemoController">	
+		FirstName: <input type="text" ng-model="model.firstName">
+		LastName: <input type="text" ng-model="model.lastName">
+		<input type="button" value="ChangeValue" onclick="changeValue();">
+	</div>
+```
+
+## jquery.floatWin
+主要是实现了在全屏浮动的小窗口功能，通俗来讲，一般就是小广告功能。使用起来非常简单。
+
+```
+	$("body").floatWin({
+	        srcId: 'testDiv',
+	        speed: 20
+	});
+```
