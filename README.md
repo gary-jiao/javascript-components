@@ -152,3 +152,13 @@ AngularJS的双向绑定功能非常方便易用，但一般在提到这个功�
 	        speed: 20
 	});
 ```
+
+## StickySort Table
+可以支持第一列固定的Table组件。https://github.com/terrymun/StickySort
+
+## jQuery Pivot Table
+基于jQuery的交叉表实现。https://github.com/nicolaskruchten/pivottable
+
+## [Cytoscape](http://js.cytoscape.org/)
+Cytoscape.js 是个开源 JavaScript 图形库，用户可以用 Cytoscape.js 来分析和制作可视化图形。它兼容 CommonJS/Node.js, jQuery 1.4+ 和纯 JavaScript。  
+![Cytoscape](images/cytoscape.png)
