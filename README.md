@@ -162,3 +162,13 @@ AngularJS的双向绑定功能非常方便易用，但一般在提到这个功�
 ## [Cytoscape](http://js.cytoscape.org/)
 Cytoscape.js 是个开源 JavaScript 图形库，用户可以用 Cytoscape.js 来分析和制作可视化图形。它兼容 CommonJS/Node.js, jQuery 1.4+ 和纯 JavaScript。  
 ![Cytoscape](images/cytoscape.png)
+
+## jQuery图片翻转效果
+鼠标移动到图片时，图片产生翻转的效果。效果参见： [jQueryTurnround20161010](jQueryTurnround20161010)
+
+## 商品飞入购物车动画效果
+点击添加到购物车后，商品加入购物车的动画效果。效果参见： [jQueryShoppingCart20160528](jQueryShoppingCart20160528)
+
+## 鼠标移动图片产生特效
+鼠标移动到图片后，可以产生几种不同的效果。 参见：[magic-animations](magic-animations)
+
