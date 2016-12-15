@@ -172,3 +172,15 @@ Cytoscape.js 是个开源 JavaScript 图形库，用户可以用 Cytoscape.js �
 ## 鼠标移动图片产生特效
 鼠标移动到图片后，可以产生几种不同的效果。 参见：[magic-animations](magic-animations)
 
+## string.format.js
+可以支持字符串的点位符替换。支持数字模式和名称模式：
+
+```
+String s = "Hello {name}";
+s.format({"name" : "world"});
+
+String s = "Hello {0}";
+s.format("world");
+```
+## json.key-with-dot.js
+当需要根据key动态取json里的数据时，如果是涉及到多层次的，也就是key里带有小数点的，默认是不支持获取这样的数据。使用这个方法，就可以有效的支持这种需求。
