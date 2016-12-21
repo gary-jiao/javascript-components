@@ -197,4 +197,7 @@ http://plugins.upbootstrap.com/bootstrap-ajax-typeahead/
 ## jquery.bootcomplete.js
 另外一个基于Bootstrap的ajax complete输入框。http://getwebhelp.com/bootcomplete/?country_id=&country=English
 
+## jquery.bootpop.js
+基于bootstrap的模式窗口功能组件。http://getwebhelp.com/bootpop/
+
 
