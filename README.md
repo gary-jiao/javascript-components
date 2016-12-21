@@ -193,6 +193,7 @@ s.format("world");
 
 ## Twitter Bootstrap Ajax Typeahead Plugin
 http://plugins.upbootstrap.com/bootstrap-ajax-typeahead/
+https://github.com/biggora/bootstrap-ajax-typeahead
 https://github.com/bassjobsen/Bootstrap-3-Typeahead
 
 ## jquery.bootcomplete.js
