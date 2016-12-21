@@ -193,6 +193,7 @@ s.format("world");
 
 ## Twitter Bootstrap Ajax Typeahead Plugin
 http://plugins.upbootstrap.com/bootstrap-ajax-typeahead/
+https://github.com/bassjobsen/Bootstrap-3-Typeahead
 
 ## jquery.bootcomplete.js
 另外一个基于Bootstrap的ajax complete输入框。http://getwebhelp.com/bootcomplete/?country_id=&country=English
