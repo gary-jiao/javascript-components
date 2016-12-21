@@ -184,3 +184,17 @@ s.format("world");
 ```
 ## json.key-with-dot.js
 当需要根据key动态取json里的数据时，如果是涉及到多层次的，也就是key里带有小数点的，默认是不支持获取这样的数据。使用这个方法，就可以有效的支持这种需求。
+
+## jquery.select2
+基于jQuery的select下拉框组件，功能非常丰富，一般下拉框需要的功能感觉都有。参考这里：https://select2.github.io/
+
+## Bootstrap combobox
+基于Bootstrap的Combobox组件，功能比较简洁，主要是基于bootstrap，使用上比较方便。参考这里：http://formvalidation.io/examples/bootstrap-combobox/
+
+## Twitter Bootstrap Ajax Typeahead Plugin
+http://plugins.upbootstrap.com/bootstrap-ajax-typeahead/
+
+## jquery.bootcomplete.js
+另外一个基于Bootstrap的ajax complete输入框。http://getwebhelp.com/bootcomplete/?country_id=&country=English
+
+
