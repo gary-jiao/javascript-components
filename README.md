@@ -202,4 +202,10 @@ https://github.com/bassjobsen/Bootstrap-3-Typeahead
 ## jquery.bootpop.js
 基于bootstrap的模式窗口功能组件。http://getwebhelp.com/bootpop/
 
+## bootstrap-collapsible-sidebar
+基于bootstrap的垂直手风琴折叠菜单。[bootstrap-collapsible-sidebar](bootstrap-collapsible-sidebar.zip)  
+![bootstrap-collapsible-sidebar](images/bootstrap-collapsible-sidebar.png)
 
+## [jQuery 3D 垂直多级菜单 可筛选菜单项](http://www.html5tricks.com/jquery-3d-menu-with-search.html)
+功能还不错，颜色应该需要改进。附件：[jquery-3d-menu-with-search.rar]  
+![jquery-3d-menu-with-search](images/jquery-3d-menu-with-search.png)
